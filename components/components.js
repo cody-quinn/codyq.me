@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Navbar = () => (
   <div className='flex justify-between items-center py-4 h-16 sticky top-0 border-b-2 bg-white border-gray-100 border-solid'>
-    <div>codyq.me</div>
+    <div>codyq.dev</div>
     <div className='flex gap-x-4'>
       <Link href='/'>Home</Link>
       <Link href='/blog'>Blog</Link>

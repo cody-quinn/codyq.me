@@ -14,16 +14,16 @@ const BlogPost = ({ post }) => {
   return (
     <PageContainer>
       <Head>
-        <title>codyq.me - {post.title}</title>
+        <title>codyq.dev - {post.title}</title>
         <meta name='title' content={post.title} />
         <meta name='description' content={`"${post.summary}"`} />
 
         <meta property='og:type' content='website' />
-        <meta property='og:url' content={`https://codyq.me/blog/${post.slug}`} />
+        <meta property='og:url' content={`https://codyq.dev/blog/${post.slug}`} />
         <meta property='og:title' content={post.title} />
         <meta property='og:description' content={`"${post.summary}"`} />
 
-        <meta property='twitter:url' content={`https://codyq.me/blog/${post.slug}`} />
+        <meta property='twitter:url' content={`https://codyq.dev/blog/${post.slug}`} />
         <meta property='twitter:title' content={post.title} />
         <meta property='twitter:description' content={`"${post.summary}"`} />
       </Head>

@@ -6,23 +6,23 @@ import Head from "next/head";
 const Home = ({ posts }) => (
   <PageContainer>
     <Head>
-      <title>codyq.me</title>
-      <meta name='title' content='codyq.me' />
+      <title>codyq.dev</title>
+      <meta name='title' content='codyq.dev' />
       <meta
         name='description'
         content="My name is Cody! I'm a highschool student interested in Computer Science, Programming and Photography. In my freetime I work on various projects of which I have many. Most can befound on my GitHub."
       />
 
       <meta property='og:type' content='website' />
-      <meta property='og:url' content='https://codyq.me/' />
-      <meta property='og:title' content='codyq.me' />
+      <meta property='og:url' content='https://codyq.dev/' />
+      <meta property='og:title' content='codyq.dev' />
       <meta
         property='og:description'
         content="My name is Cody! I'm a highschool student interested in Computer Science, Programming and Photography. In my freetime I work on various projects, of which I have many. Most can befound on my GitHub."
       />
 
-      <meta property='twitter:url' content='https://codyq.me/' />
-      <meta property='twitter:title' content='codyq.me' />
+      <meta property='twitter:url' content='https://codyq.dev/' />
+      <meta property='twitter:title' content='codyq.dev' />
       <meta
         property='twitter:description'
         content="My name is Cody! I'm a highschool student interested in Computer Science, Programming and Photography. In my freetime I work on various projects, of which I have many. Most can befound on my GitHub."
@@ -36,9 +36,9 @@ const Home = ({ posts }) => (
         found on my <InlineLink href='https://github.com/CatDevz'>GitHub</InlineLink>!
       </p>
       <p>
-        I know and use various languages such as Kotlin, Java, JavaScript and Python. Many of my
-        projects are related to server-side Minecraft development, however I have a strong interest
-        in fullstack web development.
+        I know and use various languages some of which being Rust, Kotlin, TypeScript. I'm currently
+        learning F#. Many of my projects are related to server-side Minecraft development, however I
+        have a strong interest in fullstack web development.
       </p>
     </Section>
     <Section header='📝 Recent blog posts'>
@@ -56,7 +56,7 @@ const Home = ({ posts }) => (
       </InlineLink>
     </Section>
     <Section header='📭️ Contact me'>
-      <p>Email: inbox@codyq.me</p>
+      <p>Email: inbox@codyq.dev</p>
     </Section>
   </PageContainer>
 );

@@ -6,23 +6,23 @@ const Blog = ({ posts }) => {
   return (
     <PageContainer>
       <Head>
-        <title>codyq.me - Blog</title>
-        <meta name='title' content='codyq.me - Blog' />
+        <title>codyq.dev - Blog</title>
+        <meta name='title' content='codyq.dev - Blog' />
         <meta
           name='description'
           content={`Recent blog posts:\n${posts.map((post) => post.title).join("\n")}`}
         />
 
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://codyq.me/blog/' />
-        <meta property='og:title' content='codyq.me - Blog' />
+        <meta property='og:url' content='https://codyq.dev/blog/' />
+        <meta property='og:title' content='codyq.dev - Blog' />
         <meta
           property='og:description'
           content={`Recent blog posts:\n${posts.map((post) => post.title).join("\n")}`}
         />
 
-        <meta property='twitter:url' content='https://codyq.me/blog/' />
-        <meta property='twitter:title' content='codyq.me - Blog' />
+        <meta property='twitter:url' content='https://codyq.dev/blog/' />
+        <meta property='twitter:title' content='codyq.dev - Blog' />
         <meta
           property='twitter:description'
           content={`Recent blog posts:\n${posts.map((post) => post.title).join("\n")}`}
